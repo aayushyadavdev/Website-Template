@@ -1,0 +1,56 @@
+.hero-image {
+    max-height: 400px;
+    object-fit: cover;
+}
+/* General Styles */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+/* Navbar */
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+/* Hero Section */
+
+section:first-of-type {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+
+/* Service Cards */
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15) !important;
+}
+
+
+/* Buttons */
+
+.btn {
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+
+/* Footer */
+
+footer {
+    margin-top: 0;
+}
